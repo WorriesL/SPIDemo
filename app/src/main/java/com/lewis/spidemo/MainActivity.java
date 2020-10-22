@@ -9,13 +9,12 @@ import android.widget.Button;
 
 import com.lewis.aninterface.Display;
 
-import java.util.Iterator;
 import java.util.ServiceLoader;
 
 public class MainActivity extends AppCompatActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected final void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
