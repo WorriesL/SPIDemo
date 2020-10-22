@@ -24,7 +24,8 @@ public class MainActivity extends AppCompatActivity {
             Log.e("lwlwlw", "click");
             loadModule();
         });
-
+        Log.e("lwlwlw", "Test: ");
+        Log.e("lwlwlw", "onCreate: ");
     }
 
     private void loadModule() {
